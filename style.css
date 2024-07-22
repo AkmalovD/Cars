@@ -16,3 +16,41 @@ ul {
     margin: 0 auto;
     padding: 0 15px; 
 }
+
+.header__nav {
+    background: black;
+    padding: 34px;
+}
+
+.header__nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 14px;
+    line-height: 16.8px;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 5px;  
+}
+
+.logo__span {
+    background: rgba(74, 144, 226, 1);
+    border-radius: 3px;
+    padding: 3px 5px;
+}
+
+.haeder__nav-list {
+    display: flex;
+    align-items: center;
+    gap: 30px;   
+}
+
+.header__nav-link {
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    line-height: 18.12px;
+}
